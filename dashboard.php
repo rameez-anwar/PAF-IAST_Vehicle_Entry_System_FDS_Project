@@ -208,7 +208,6 @@ if (isset($_GET['delete_vehicle_id'])) {
                         </div>
                         <button type="submit" name="add_vehicle" class="btn btn-primary">Add Vehicle</button>
                     </form>
-
                     <?php if (isset($error_message)) { ?>
                         <div class="alert alert-danger mt-3">
                             <?php echo htmlspecialchars($error_message); ?>
