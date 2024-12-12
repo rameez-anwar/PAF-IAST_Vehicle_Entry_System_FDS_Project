@@ -61,8 +61,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['action'])) {
             align-items: center;
             justify-content: space-between;
         }
-
-        
         .header .btn {
             margin-left: 10px;
         }
